@@ -1,0 +1,11 @@
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.city {
+  padding: 25px;
+  flex: 1 1 calc(100% / 5);
+  box-shadow: 4px 7px 19px -7px rgba(168, 163, 168, 1);
+}
